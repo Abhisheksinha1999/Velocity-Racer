@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Lancia Stratos
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: bfb6eb67e904f3147bc148f7fea5ee16, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 3
+    cashUpgradeAmount: 18085
+    coinUpgradeAmount: 1196
+  coinsPrice: 18013
+  carBodyFull: {fileID: 8440349232876208976, guid: d0933e33865daed4b8a73d06f3977b0e,
+    type: 3}
+  carDetailsLIst:
+  - Heading: 'Top Speed :'
+    details: 150 Km/h
+  - Heading: 'Accelration :'
+    details: 10 km/h
+  - Heading: 'Turn Control : '
+    details: 8

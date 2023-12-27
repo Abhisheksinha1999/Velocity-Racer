@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8600a3c9610bacb46a9b778bd8112c23, type: 3}
+  m_Name: Game Data
+  m_EditorClassIdentifier: 
+  OnPc: 0
+  levelSystem: {fileID: 11400000, guid: c683e2a821dc78343b57a3b998c4d715, type: 2}
+  saveData:
+    currentDay: 0
+    totalCash: 0
+    totalCoins: 0
+    carType: 0
+    profileSaveData:
+      uniqueIdNumber: 
+      matchWonNumber: 0
+      totalRacesJoined: 0
+      medalsTotalRecived: 0
+      totalGoldTropy: 0
+      totalTimePlayed: 0
+    settingsSaveData:
+      firstRun: 1
+      hasAdsInGame: 1
+      isReviewd: 1
+      isVFXOn: 1
+      isHapticsOn: 1
+      musicVolumeAmount: 1
+      sfxVolumeAmount: 1
+      quaityIndex: 0
+      frameRate: 60
+      speedIsKmph: 1
+      showNetworkPing: 1
+      regionName: asia
+      controllType: 0
+    dailyRewards:
+      isClamedDailyBonus: 0
+      DailyBonusAlreadyShown: 0
+    trackSaveDatasList:
+    - isLocked: 0
+      levelRequiredToUnlock: 1
+      tracks: 0
+    - isLocked: 1
+      levelRequiredToUnlock: 8
+      tracks: 1
+    - isLocked: 1
+      levelRequiredToUnlock: 5
+      tracks: 2
+    - isLocked: 1
+      levelRequiredToUnlock: 79
+      tracks: 3
+    - isLocked: 1
+      levelRequiredToUnlock: 51
+      tracks: 4
+    - isLocked: 1
+      levelRequiredToUnlock: 69
+      tracks: 5
+    - isLocked: 1
+      levelRequiredToUnlock: 76
+      tracks: 0
+    - isLocked: 1
+      levelRequiredToUnlock: 76
+      tracks: 7
+    - isLocked: 1
+      levelRequiredToUnlock: 43
+      tracks: 8
+    - isLocked: 1
+      levelRequiredToUnlock: 89
+      tracks: 9
+    - isLocked: 1
+      levelRequiredToUnlock: 68
+      tracks: 10
+    - isLocked: 1
+      levelRequiredToUnlock: 69
+      tracks: 0
+    - isLocked: 1
+      levelRequiredToUnlock: 96
+      tracks: 12
+    - isLocked: 1
+      levelRequiredToUnlock: 97
+      tracks: 13
+    - isLocked: 1
+      levelRequiredToUnlock: 60
+      tracks: 14
+    - isLocked: 1
+      levelRequiredToUnlock: 19
+      tracks: 15
+    carSaveDatas:
+    - isLocked: 1
+      carTypeShop: 1
+      cashUpgradeAmount: 19485
+      coinUpgradeAmount: 1919
+    - isLocked: 0
+      carTypeShop: 0
+      cashUpgradeAmount: 19450
+      coinUpgradeAmount: 1105
+    - isLocked: 1
+      carTypeShop: 2
+      cashUpgradeAmount: 11679
+      coinUpgradeAmount: 1619
+    - isLocked: 1
+      carTypeShop: 7
+      cashUpgradeAmount: 12284
+      coinUpgradeAmount: 1045
+    - isLocked: 1
+      carTypeShop: 11
+      cashUpgradeAmount: 17485
+      coinUpgradeAmount: 1660
+    - isLocked: 1
+      carTypeShop: 6
+      cashUpgradeAmount: 13218
+      coinUpgradeAmount: 1536
+    - isLocked: 1
+      carTypeShop: 18
+      cashUpgradeAmount: 10986
+      coinUpgradeAmount: 1478
+    - isLocked: 1
+      carTypeShop: 5
+      cashUpgradeAmount: 17166
+      coinUpgradeAmount: 1324
+    - isLocked: 1
+      carTypeShop: 9
+      cashUpgradeAmount: 15677
+      coinUpgradeAmount: 1431
+    - isLocked: 1
+      carTypeShop: 12
+      cashUpgradeAmount: 12805
+      coinUpgradeAmount: 1903
+    - isLocked: 1
+      carTypeShop: 4
+      cashUpgradeAmount: 19686
+      coinUpgradeAmount: 1903
+    - isLocked: 1
+      carTypeShop: 3
+      cashUpgradeAmount: 18085
+      coinUpgradeAmount: 1196
+    - isLocked: 1
+      carTypeShop: 10
+      cashUpgradeAmount: 11859
+      coinUpgradeAmount: 1960
+    - isLocked: 1
+      carTypeShop: 8
+      cashUpgradeAmount: 15425
+      coinUpgradeAmount: 1842
+    - isLocked: 1
+      carTypeShop: 13
+      cashUpgradeAmount: 11536
+      coinUpgradeAmount: 1095
+    - isLocked: 1
+      carTypeShop: 15
+      cashUpgradeAmount: 16936
+      coinUpgradeAmount: 1002
+    - isLocked: 1
+      carTypeShop: 16
+      cashUpgradeAmount: 13156
+      coinUpgradeAmount: 1322
+    - isLocked: 1
+      carTypeShop: 17
+      cashUpgradeAmount: 10396
+      coinUpgradeAmount: 1811
+    - isLocked: 1
+      carTypeShop: 14
+      cashUpgradeAmount: 11908
+      coinUpgradeAmount: 1530
+    - isLocked: 1
+      carTypeShop: 19
+      cashUpgradeAmount: 18418
+      coinUpgradeAmount: 1692
+    - isLocked: 1
+      carTypeShop: 20
+      cashUpgradeAmount: 12208
+      coinUpgradeAmount: 1678
+  trackToSaveList:
+  - {fileID: 11400000, guid: a00ff675d661dba42b12c28b63628962, type: 2}
+  - {fileID: 11400000, guid: f3e268126b2131543818a1f82fec4716, type: 2}
+  - {fileID: 11400000, guid: e55983e412d163e40bdbb89b4e169e11, type: 2}
+  - {fileID: 11400000, guid: eee149c0d9d05d54f911fecb9acba9a6, type: 2}
+  - {fileID: 11400000, guid: 2a78438551f353d48a2e5eb86e89f2ed, type: 2}
+  - {fileID: 11400000, guid: 344212098237760449a8551181ac010e, type: 2}
+  - {fileID: 11400000, guid: 1940bef28e6c153459fae70018b4e9ab, type: 2}
+  - {fileID: 11400000, guid: 4b0eedd0baf2dba47875868c33654aee, type: 2}
+  - {fileID: 11400000, guid: db08d6da7fc6c2442885314d37e54bad, type: 2}
+  - {fileID: 11400000, guid: 6553873d0dae1464981545626fbd3247, type: 2}
+  - {fileID: 11400000, guid: 318f24ab752de45439779aab8af1ebe6, type: 2}
+  - {fileID: 11400000, guid: 80c7af129153e3248baf089c02522f50, type: 2}
+  - {fileID: 11400000, guid: d96b2464031fcb9408cfed9ed2c5e5a7, type: 2}
+  - {fileID: 11400000, guid: 15e32a1ba51df54459f17c5146b90d98, type: 2}
+  - {fileID: 11400000, guid: cdef89088dc9869479e295b1a85d5c44, type: 2}
+  - {fileID: 11400000, guid: 11fcd8d176948654c9bafca73d05003e, type: 2}
+  carsDataToSaveList:
+  - {fileID: 11400000, guid: 258b40621d39f734d935041c19556c85, type: 2}
+  - {fileID: 11400000, guid: 8608fa78cfb9a0c48a5873bac0225c6a, type: 2}
+  - {fileID: 11400000, guid: 448f997d940b12349ae06ad218da5e3c, type: 2}
+  - {fileID: 11400000, guid: 2a5006885d7c40943831a5e5ab86733e, type: 2}
+  - {fileID: 11400000, guid: 4e5e3e03e5912134eb4991d357b79fc7, type: 2}
+  - {fileID: 11400000, guid: 26be587c863a0b04b9446533073b4b6f, type: 2}
+  - {fileID: 11400000, guid: ae4ad696a5ccf7d4aa18ee1520ed4852, type: 2}
+  - {fileID: 11400000, guid: 91a89e374a94bc5499d81d4e0617f16c, type: 2}
+  - {fileID: 11400000, guid: 2abb5390970f17b4aa3659a03c913358, type: 2}
+  - {fileID: 11400000, guid: d7732ba7e7502e844995501bddd77ed0, type: 2}
+  - {fileID: 11400000, guid: ccbaaad68bbdf4d48b782b100fbcafdc, type: 2}
+  - {fileID: 11400000, guid: 4b40558e7bbd1944395e9a5192efdfa4, type: 2}
+  - {fileID: 11400000, guid: a50822136ffa8584fa36a99bd7ec4cb8, type: 2}
+  - {fileID: 11400000, guid: 558dbcc4965340743b51ac9967df6d72, type: 2}
+  - {fileID: 11400000, guid: be53cbf42bf37ec4f89c1eeeaeb0da20, type: 2}
+  - {fileID: 11400000, guid: dd278738058925d4aaa1445c4e5bc40c, type: 2}
+  - {fileID: 11400000, guid: e05bf78f4fd0cf84caa188e1c9ab788f, type: 2}
+  - {fileID: 11400000, guid: 5e62910071aeaa74980ad70fd306fce4, type: 2}
+  - {fileID: 11400000, guid: b1e122d4e8f90d043abd7590e06fa670, type: 2}
+  - {fileID: 11400000, guid: 8dc42b437bd77ef4f98e0307f2289299, type: 2}
+  - {fileID: 11400000, guid: b7562e582ce47c24ea3223f2436b7c1e, type: 2}

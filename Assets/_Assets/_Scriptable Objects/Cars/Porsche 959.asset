@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Porsche 959
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: 32c21ffa37d4c8248b6842f64e8a0955, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 15
+    cashUpgradeAmount: 16936
+    coinUpgradeAmount: 1002
+  coinsPrice: 17088
+  carBodyFull: {fileID: 5360809813165327867, guid: f36d16a0e0ee7b7439908deb1aef89f0,
+    type: 3}
+  carDetailsLIst:
+  - Heading: Top Speed
+    details: 245 km/h
+  - Heading: Accelration
+    details: 9 m/h
+  - Heading: Turn
+    details: 8
